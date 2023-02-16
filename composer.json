@@ -1,0 +1,29 @@
+{
+    "name": "yeejiawei/laravel-qrcode",
+    "description": "Laravel Wrapper for phpqrcode",
+    "authors": [
+        {
+            "name": "Yee Jia Wei",
+            "email": "yeejiawei0811@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "lgpl-3.0",
+    "require": {
+        "illuminate/support": "^9.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yeejiawei\\LaravelQrcode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yeejiawei\\LaravelQrcode\\LaravelQrcodeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
